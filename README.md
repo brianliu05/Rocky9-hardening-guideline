@@ -53,7 +53,7 @@ timedatectl set-timezone Asia/Hong_Kong
 #### Configure SSH
 Restrict SSH access to a specific user (e.g., hkmuadmin):
 ```bash
-echo "AllowUsers hkmuadmin" >> /etc/ssh/sshd_config
+echo "AllowUsers admin" >> /etc/ssh/sshd_config
 systemctl restart sshd
 ```
 
